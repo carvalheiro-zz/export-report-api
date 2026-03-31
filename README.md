@@ -11,14 +11,24 @@ Esta API foi desenvolvida em **Java 21** e **Spring Boot** para gerenciar a expo
 Para inspeção de dados em ambiente de desenvolvimento:
 
   * **URL:** `http://localhost:8080/h2-console`
+  * **user:** sa
+  * **password:**  
   * **Configuração Crítica:** No campo **JDBC URL**, utilize exatamente:
     > `jdbc:h2:file:./data/export-report_db`
 
 ### Documentação da API (Swagger)
 
 Para testes de endpoints e visualização dos schemas (PayloadDTO):
-
-  * **URL:** [http://localhost:8080/swagger-ui/index.html](https://www.google.com/search?q=http://localhost:8080/swagger-ui/index.html)
+   - Visual: `http://localhost:8080/swagger-ui.html`
+   - JSON: `http://localhost:8080/api-docs`
+  
+### Acesso On-line via Render
+- Servidor (Deploy): `https://dashboard.render.com/`
+- `https://export-report-api.onrender.com/health`
+- `https://export-report-api.onrender.com/index.html`
+- **Gerenciamento**
+    - `https://dashboard.uptimerobot.com/monitors`
+    - `stats.uptimerobot.com/aQccQwMSju`
 
 -----
 
