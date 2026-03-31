@@ -1,0 +1,34 @@
+<section class="relatorio-wrapper">
+
+    <table class="layout-header" style="width: 100%; border: none;">
+        <tr>
+            <td style="width: 20%;"><img src="{{logo}}" /></td>
+            <td style="width: 60%; text-align: center;"><h1>{{titulo}}</h1></td>
+            <td style="width: 20%; text-align: right;">{{data}}</td>
+        </tr>
+    </table>
+
+    <hr />
+
+    {{#each etapas}}
+    <div class="card-etapa" style="page-break-inside: avoid; margin-bottom: 20px;">
+        <h3 class="bg-gray">{{nomeEtapa}}</h3>
+        
+        <table class="data-table" style="width: 100%;">
+            <thead>
+                <tr><th>Mandante</th><th>Placar</th><th>Visitante</th></tr>
+            </thead>
+            <tbody>
+                {{#each confrontos}}
+                <tr>
+                    <td>{{time1.nome}}</td>
+                    <td align="center">{{time1.pontos}} x {{time2.pontos}}</td>
+                    <td align="right">{{time2.nome}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+    {{/each}}
+
+</section>

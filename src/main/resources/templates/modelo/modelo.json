@@ -1,0 +1,33 @@
+{
+  "tituloRelatorio": "Brasileirão 2026",
+  "nomeSistema": "torneio-export-manager",
+  "dataHora": "31/03/2026 11:15",
+  "etapas": [
+    {
+      "nomeEtapa": "Rodada 1",
+      "confrontos": [
+        {
+          "time1": { "nome": "Palmeiras", "pontos": 3, "saldo": 2 },
+          "time2": { "nome": "Flamengo", "pontos": 0, "saldo": -2 }
+        },
+        {
+          "time1": { "nome": "Grêmio", "pontos": 1, "saldo": 0 },
+          "time2": { "nome": "Internacional", "pontos": 1, "saldo": 0 }
+        }
+      ]
+    },
+    {
+      "nomeEtapa": "Rodada 2",
+      "confrontos": [
+        {
+          "time1": { "nome": "São Paulo", "pontos": 3, "saldo": 1 },
+          "time2": { "nome": "Corinthians", "pontos": 0, "saldo": -1 }
+        },
+        {
+          "time1": { "nome": "Cruzeiro", "pontos": 0, "saldo": -3 },
+          "time2": { "nome": "Atlético-MG", "pontos": 3, "saldo": 3 }
+        }
+      ]
+    }
+  ]
+}
